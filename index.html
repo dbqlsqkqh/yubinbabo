@@ -1,1 +1,253 @@
-dlkasjdlka
+<!DOCTYPE html>
+<html>
+<head>
+<title>프로토타이핑(테스트)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="./swiper-4.5.0/swiper-4.5.0/dist/css/swiper.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+	.bg01{
+	  background:url(./images/1.jpg) no-repeat center top;
+	  background-size:cover;
+	}
+	.bg02{
+	  background:url(./images/2.jpg) no-repeat center top;
+	  background-size:cover;
+	}
+	.bg03{
+	  background:url(./images/3.jpg) no-repeat center top;
+	  background-size:cover;
+	}
+	 .swiper-slide dl{
+      width:100%;
+      border:5px solid red;
+    }    
+   .swiper-slide dl dt{
+      background:yellow;
+	  padding:20px 0;
+    }
+    .swiper-slide dl dd{
+      background:orange;
+	  padding:20px 0 100px;
+    } 
+	
+  </style>
+</head>
+<body>
+<main>
+<header>
+<div class="inner">
+   <h1>로고</h1>
+   <nav>
+       <ul>
+	        <li><a href="#">menu</a></li>
+			<li><a href="#">menu</a></li>
+			<li><a href="#">menu</a></li>
+			<li><a href="#">menu</a></li>
+			<li><a href="#">menu</a></li>
+	   </ul>
+   </nav>
+   <div id="qnb">QNB</div>
+</div><!--//inner-->
+</header>
+<section id="visual">
+<!--visual swiper jquery-->
+<!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide bg01">Slide 1</div>
+	  <div class="swiper-slide bg02">Slide 2</div>
+	  <div class="swiper-slide bg03">Slide 3</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div> 
+	 <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="./swiper-4.5.0/swiper-4.5.0/dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+		},
+	  navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },	
+    });
+  </script>
+<!--//visual jquery-->
+</section>
+<section id="contents">
+<div id="product">
+ <!-- Swiper -->
+  <div class="swiper-container2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+	     <dl>
+		     <dt>주제</dt>
+			 <dd>내용</dd>
+		 </dl>
+	  </div><!--//swiper-slide-->
+	  
+	   <div class="swiper-slide">
+	     <dl>
+		     <dt>주제</dt>
+			 <dd>내용</dd>
+		 </dl>
+	  </div><!--//swiper-slide-->
+	  
+	   <div class="swiper-slide">
+	     <dl>
+		     <dt>주제</dt>
+			 <dd>내용</dd>
+		 </dl>
+	  </div><!--//swiper-slide-->
+	  
+	   <div class="swiper-slide">
+	     <dl>
+		     <dt>주제</dt>
+			 <dd>내용</dd>
+		 </dl>
+	  </div><!--//swiper-slide-->
+	  
+	   <div class="swiper-slide">
+	     <dl>
+		     <dt>주제</dt>
+			 <dd>내용</dd>
+		 </dl>
+	  </div><!--//swiper-slide-->
+	  
+	   <div class="swiper-slide">
+	     <dl>
+		     <dt>주제</dt>
+			 <dd>내용</dd>
+		 </dl>
+	  </div><!--//swiper-slide-->
+	  
+	   <div class="swiper-slide">
+	     <dl>
+		     <dt>주제</dt>
+			 <dd>내용</dd>
+		 </dl>
+	  </div><!--//swiper-slide-->
+	  
+	   <div class="swiper-slide">
+	     <dl>
+		     <dt>주제</dt>
+			 <dd>내용</dd>
+		 </dl>
+	  </div><!--//swiper-slide-->
+	  
+	   <div class="swiper-slide">
+	     <dl>
+		     <dt>주제</dt>
+			 <dd>내용</dd>
+		 </dl>
+	  </div><!--//swiper-slide-->
+	  
+	   <div class="swiper-slide">
+	     <dl>
+		     <dt>주제</dt>
+			 <dd>내용</dd>
+		 </dl>
+	  </div><!--//swiper-slide-->
+	  
+    
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+	<!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS 
+  <script src="../dist/js/swiper.min.js"></script>
+  -->
+  
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container2', {
+      slidesPerView: 6,
+      spaceBetween: 30,
+      // init: false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+	  navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        1280: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        }
+      }
+    });
+  </script>
+</div><!--//product-->
+</section>
+<footer></footer>
+</main>
+</body>
+</html>
